@@ -1378,9 +1378,9 @@ def sniff():
 		# Close the socket.
 		sock.close()
 
-		# if startCalculations() == 0:
-		# 	for i in range(len(calculationList)):
-		# 		print(calculationList[i])
+		if startCalculations() == 0:
+			for i in range(len(calculationList)):
+				print(calculationList[i])
 
 def main():
 	if (os == linux) or (os == windows):
